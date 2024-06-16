@@ -30,14 +30,14 @@ This project aims to migrate an existing legacy system from VMware to Kubernetes
 
 3. **Storage Configurations:**
    - Document current storage solutions:
-     - Types of storage (NFS, iSCSI, local disks)
+     - Types of storage (NFS, SAN, local disks)
      - Datastore configurations
      - Storage performance requirements (IOPS, latency)
    - Plan for storage migration and data integrity checks.
 
 4. **External Services Dependencies:**
    - List all external services:
-     - Databases (e.g., MySQL, PostgreSQL)
+     - Databases (e.g., Oracle, MySQL, MSSQL)
      - Authentication services (e.g., LDAP, AD)
      - APIs and external integrations
    - Assess the impact of migration on these services and plan accordingly.
